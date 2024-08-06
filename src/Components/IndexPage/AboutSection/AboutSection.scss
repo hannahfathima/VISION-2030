@@ -1,0 +1,166 @@
+.about-sec-wrapper {
+    overflow: hidden;
+    .abount-section-body {
+        padding: 6rem 0rem 6rem 7rem;
+        background-image: url('/Images/BG 3.jpg');
+        background-size: cover;
+        background-position: center;
+
+        .about-row {
+            // height: 430px;
+            width: 100%;
+
+            .about-left-card {
+                width: 100%;
+                padding: 2rem 20px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-radius: 20px;
+                background-color: #383838;
+                border-bottom: 1px solid #5321A3;
+                box-shadow: 0px 4px 4px 0px #00000040;
+                box-shadow: 0px 2px 2px 0px #00000040 inset;
+
+
+                h1 {
+                    font-family: Jost;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+
+                p {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 300;
+                    width: 95%;
+                    line-height: 30px;
+                    letter-spacing: 0.06em;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+
+            .about-right-card {
+                height: 100%;
+
+                .image-containers {
+                    width: 93%;
+                    height: 100%;
+                    margin-left: auto;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:575px) {
+        .abount-section-body {
+            padding: 2rem 1rem!important;
+            height: auto !important;
+
+            .about-left-card {
+                gap: 10px !important;
+
+                h1 {
+                    font-size: 25px !important;
+                }
+           p {
+                    font-size: 13px !important;
+                    line-height: 23px !important;
+                    letter-spacing: 0.06em;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+            .about-right-card{
+                height: auto !important;
+                .image-containers{
+                    width: 100% !important;
+                    margin-top: 1rem !important;
+                    border-radius: 15px !important;
+                    overflow: hidden ;
+                }
+            }
+        }
+    }
+    @media (min-width:576px) and (max-width:768px) {
+        .abount-section-body {
+            padding: 1rem !important;
+            height: auto !important;
+
+            .about-left-card {
+                gap: 2rem !important;
+                height: 330px !important;
+
+                h1 {
+                    font-size: 49px !important;
+                }
+           p {
+                    font-size: 22px !important;
+                    line-height: 33px !important;
+                    letter-spacing: 0.06em;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+            .about-right-card{
+                height: auto !important;
+                .image-containers{
+                    width: 100% !important;
+                    margin-top: 1rem !important;
+                    border-radius: 15px !important;
+                    overflow: hidden ;
+                }
+            }
+        }
+    }
+    @media (min-width:769px) and (max-width:993px) {
+        .abount-section-body {
+            padding: 2rem !important;
+            height: auto !important;
+
+            .about-left-card {
+                gap: 2rem !important;
+                height: 330px !important;
+
+                h1 {
+                    font-size: 49px !important;
+                }
+           p {
+                    font-size: 22px !important;
+                    line-height: 33px !important;
+                    letter-spacing: 0.06em;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+            .about-right-card{
+                height: auto !important;
+                .image-containers{
+                    width: 100% !important;
+                    margin-top: 1rem !important;
+                    border-radius: 15px !important;
+                    overflow: hidden ;
+                }
+            }
+        }
+    }
+    @media (min-width:994px) and (max-width:1300px) {
+        .abount-section-body {
+            padding: 2rem 0rem 2rem 2rem !important;
+            height: auto !important;
+        }
+    }
+}

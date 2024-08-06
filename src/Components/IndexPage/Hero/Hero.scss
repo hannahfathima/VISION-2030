@@ -1,0 +1,232 @@
+.hero-main-wrapper {
+    overflow: hidden;
+    .hero-subbody {
+        background-image: url("/Images/BG 2.jpg");
+        // padding: 0px 0px 2rem;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        .hero-sociel-icon-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5rem 3rem 1rem;
+            // background-color: red;
+
+            .sociel-left {
+                width: 40%;
+                height: 100%;
+                padding-left: 3rem;
+
+                button {
+                    width: 120px;
+                    height: 40px;
+                    top: 109px;
+                    left: 100px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Jost;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    border: none;
+                    background-color: #5321A3;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+
+            .sociel-right {
+                width: 60%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                padding-right: 3rem;
+                gap: 1.6rem;
+
+                img {
+                    width: 18px;
+                }
+            }
+        }
+
+        .hero-banner-img {
+            height: 460px;
+            width: 70%;
+            margin-left: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .banner-titles {
+            position: absolute;
+            top: 43%;
+            left: 5%;
+
+            h1 {
+                font-family: Jost;
+                font-size: 62px;
+                font-weight: 600;
+                line-height: 62px;
+                letter-spacing: 0.03em;
+                text-align: left;
+                padding-bottom: 20px;
+                color: #ffff;
+
+            }
+
+            h2 {
+                font-family: Jost;
+                font-size: 50px;
+                font-weight: 450;
+                line-height: 60px;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+    }
+    @media (max-width:575px){
+    .hero-subbody{
+        height: auto !important;
+        padding-bottom: 2rem !important;
+    }    
+    .hero-sociel-icon-container{
+        padding:5rem 0px 1rem!important;
+        .sociel-left{
+            padding-left: 10px !important;
+        }
+        .sociel-right{
+            padding-right: 10px !important;
+        }
+     
+    }
+    .hero-banner-img{
+        width: 97% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+    .banner-titles{
+        top: 47% !important;
+        h1 {
+                font-size: 32px !important;
+                line-height: 53px;
+                padding-bottom: 0px !important;
+            }
+            h2{
+                font-size: 22px !important;
+                font-weight: 450;
+                line-height: 29px !important; 
+            }
+        }
+    }
+    @media (min-width:576px) and (max-width:768px){
+    .hero-subbody{
+        height: auto !important;
+        padding-bottom: 2rem !important;
+    }    
+    .hero-sociel-icon-container{
+        padding:5rem 0px 1rem!important;
+        .sociel-left{
+            padding-left: 10px !important;
+        }
+        .sociel-right{
+            padding-right: 10px !important;
+        }
+     
+    }
+    .hero-banner-img{
+        width: 97% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+    .banner-titles{
+        top: 47% !important;
+        h1 {
+                font-size: 32px !important;
+                line-height: 53px;
+                padding-bottom: 0px !important;
+            }
+            h2{
+                font-size: 22px !important;
+                font-weight: 450;
+                line-height: 29px !important; 
+            }
+        }
+    }
+    @media (min-width:769px) and (max-width:992px){
+    .hero-subbody{
+        height: auto !important;
+        padding-bottom: 2rem !important;
+    }    
+    .hero-sociel-icon-container{
+        padding:5rem 0px 1rem!important;
+        .sociel-left{
+            padding-left: 10px !important;
+        }
+        .sociel-right{
+            padding-right: 10px !important;
+        }
+     
+    }
+    .hero-banner-img{
+        // width: 97% !important;
+        height: auto !important;
+        // margin: auto !important;
+    }
+    .banner-titles{
+        top: 47% !important;
+        h1 {
+                font-size: 52px !important;
+                line-height: 53px;
+                padding-bottom: 0px !important;
+            }
+            h2{
+                font-size: 42px !important;
+                font-weight: 450;
+                line-height: 49px !important; 
+            }
+        }
+    }
+    @media (min-width:993px) and (max-width:1300px){
+    .hero-subbody{
+        height: auto !important;
+        padding-bottom: 2rem !important;
+    }    
+    .hero-sociel-icon-container{
+        padding:5rem 0px 1rem!important;
+        .sociel-left{
+            padding-left: 10px !important;
+        }
+        .sociel-right{
+            padding-right: 10px !important;
+        }
+     
+    }
+    .hero-banner-img{
+        // width: 97% !important;
+        height: auto !important;
+        // margin: auto !important;
+    }
+    .banner-titles{
+        top: 47% !important;
+        h1 {
+                font-size: 52px !important;
+                line-height: 53px;
+                padding-bottom: 0px !important;
+            }
+            h2{
+                font-size: 42px !important;
+                font-weight: 450;
+                line-height: 49px !important; 
+            }
+        }
+    }
+}

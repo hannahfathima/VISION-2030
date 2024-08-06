@@ -1,0 +1,147 @@
+.fifth-section-wrapper {
+    overflow: hidden;
+    .fifth-section-body {
+        padding: 4rem 5rem;
+        background-color: #ACACAC;
+
+        .fifth-row {
+
+            .fifth-left-section {
+                width: 96%;
+                height: 448px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #ACACAC;
+
+                .left-section-details {
+
+                    h1 {
+                        font-family: Jost;
+                        font-size: 40px;
+                        font-weight: 500;
+                        line-height: 60px;
+                        letter-spacing: 0.05em;
+                        text-align: justify;
+                        color: #515151;
+                        padding-bottom: 1rem;
+                    }
+
+                    p {
+                        font-family: Jost;
+                        font-size: 35px;
+                        font-weight: 500;
+                        line-height: 35px;
+                        letter-spacing: 0.05em;
+                        text-align: left;
+                        color: #F8F8F8;
+                    }
+                }
+
+
+                .fifth-left-img {
+                    height: 214px;
+                    width: 100%;
+                    box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .fifth-right-section {
+                box-shadow: 0px 4px 4px 0px #00000040 inset;
+                height: 448px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+            }
+        }
+    }
+
+    @media (max-width:575px){
+        .fifth-section-body{
+            padding: 20px 1rem !important;
+            .fifth-left-section{
+                height: auto !important;
+                margin-bottom: 1rem !important;
+                width: 100% !important;
+              .left-section-details
+              {
+                h1 {
+                    font-size: 24px !important;
+                    line-height: 30px !important;
+                    text-align: center !important;
+                    padding-bottom: 0rem !important;
+                }
+                p{
+                    font-size: 21px !important;
+                    line-height: 30px !important;
+                    text-align: center !important;
+                    padding-bottom: 0rem !important;
+                }
+              }
+
+              .fifth-left-img{
+                margin-top: 1rem !important;
+                height: auto !important;
+              }
+            }
+            .fifth-right-section{
+                height: 333px !important;
+            }
+        }
+    }
+
+    @media (min-width:576px) and (max-width:768px){
+        .fifth-section-body{
+            padding: 2rem 3rem !important;
+            .fifth-left-section{
+                width: 100% !important;
+                margin-bottom: 1rem !important;
+            }
+            .fifth-right-section{
+                height: 387px !important;
+            }
+        }
+    }
+    @media (min-width:769px) and (max-width:993px){
+        .fifth-section-body{
+            padding: 2rem 3rem !important;
+            .fifth-left-section{
+                width: 100% !important;
+                margin-bottom: 1rem !important;
+            }
+            .fifth-right-section{
+                height: 387px !important;
+            }
+        }
+    }
+    @media (min-width:994px) and (max-width:1300px){
+        .fifth-section-body{
+            padding: 2rem 3rem !important;
+            .fifth-left-section{
+                width: 100% !important;
+                margin-bottom: 5px !important;
+                h1{
+                    font-size: 32px !important;
+                    padding-bottom: 0px !important;
+                }
+                p{
+                    font-size: 32px !important;
+                }
+            }
+            .fifth-right-section{
+                // height: 387px !important;
+            }
+        }
+    }
+
+}

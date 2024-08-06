@@ -1,0 +1,235 @@
+.footer-wrapper {
+    .footer-sub-wrapper {
+        height: 387px;
+        background-color: #383838;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem 0px;
+        justify-content: space-between;
+
+        .footer-cardds {
+            // background-color: rgba(255, 0, 0, 0.427);
+            padding-left: 4rem;
+            // height: 337px;
+
+            .flit-logo {
+                margin-bottom: 1.5rem;
+                // padding: 2rem 0px;
+                width: 142px;
+                height: 60px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .heading-foooter {
+                padding-bottom: 13px !important;
+
+                a {
+                    font-family: Jost;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 23.12px;
+                    text-align: left;
+                    color: #ffffff;
+                    text-decoration: none;
+
+                }
+
+
+            }
+
+            p {
+                font-family: Jost;
+                font-size: 14px;
+                font-weight: 300;
+                width: 70%;
+                line-height: 20.23px;
+                text-align: left;
+                color: #ffffff;
+            }
+
+            a {
+                font-family: Jost;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                text-align: left;
+                text-decoration: none;
+                color: #ffffff;
+            }
+
+        }
+
+        .footer-cardds-2 {
+            display: grid;
+            // align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            .heading-foooter {
+                padding-bottom: 13px !important;
+
+                p {
+                    font-family: Jost;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 23.12px;
+                    text-align: left;
+                    color: #ffffff;
+                    text-decoration: none;
+
+                }
+
+
+            }
+
+            a {
+                font-family: Jost;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 38px;
+
+                text-align: left;
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+
+        .footer-cardds-3 {
+            height: 100%;
+            display: grid;
+            align-items: center;
+            // background-color: yellow;
+            justify-content: end;
+            padding-right: 4rem;
+
+            .sociel-icons {
+                // background-color: red;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem;
+
+                img {
+                    width: 18px;
+                }
+            }
+        }
+
+        .footer-last-div {
+            height: 50px;
+            // background-color: rgb(148, 46, 46);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid #0000001A;
+
+            p {
+                font-family: Jost;
+                font-size: 14px;
+                font-weight: 300;
+                // line-height: 20.23px;
+                text-align: center;
+                margin-bottom: 0px !important;
+                color: #ffffff;
+            }
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 4px;
+            right: 18px;
+            background-color: #00000000;
+            // color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 1000;
+        
+            .FaCircleArrowUp {
+                font-size: 58px !important;
+                color: rgb(255, 255, 255);
+            }
+        
+            &:hover {
+                background-color: #6b6b6b;
+            }
+        }
+        
+    }
+    @media (max-width:575px) {
+        .footer-sub-wrapper{
+            height: auto !important;
+            // padding: 2rem 0rem !important;
+        }
+        .footer-cardds{
+            padding-left: 0px !important;
+            margin-bottom: 1rem !important;
+       
+        }
+        .footer-cardds-2{
+            justify-content: start !important;
+        }
+        .heading-foooter{
+            text-align: left !important;
+        }
+        .footer-cardds-3{
+            justify-content: start !important;
+            padding-bottom: 20px !important;
+        }
+    }
+    @media (min-width:576px) and (max-width:768px) {
+        .footer-sub-wrapper{
+            height: auto !important;
+            // padding: 2rem 0rem !important;
+        }
+        .footer-cardds{
+            padding-left: 0px !important;
+            margin-bottom: 1rem !important;
+       
+        }
+        .footer-cardds-2{
+            justify-content: start !important;
+        }
+        .heading-foooter{
+            text-align: left !important;
+        }
+        .footer-cardds-3{
+            justify-content: start !important;
+            padding-bottom: 20px !important;
+        }
+    }
+    @media (min-width:769px) and (max-width:993px) {
+        .footer-sub-wrapper{
+            height: auto !important;
+            // padding: 2rem 0rem !important;
+        }
+        .footer-cardds{
+            padding-left: 0px !important;
+            margin-bottom: 1rem !important;
+            p{
+                line-height: 27.23px !important;
+            }
+       
+        }
+        .footer-cardds-2{
+            justify-content: start !important;
+        }
+        .heading-foooter{
+            text-align: left !important;
+        }
+        .footer-cardds-3{
+            justify-content: start !important;
+            padding-bottom: 20px !important;
+        }
+    }
+}

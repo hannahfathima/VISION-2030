@@ -1,0 +1,33 @@
+.floating-bar {
+    position: fixed;
+    right: 20px;
+    bottom: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.floating-bar a {
+    color: #ffffff;
+    background-color: #000000;
+    width: 19px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.floating-bar a:hover {
+    background-color: #000000;
+}
+
+.floating-bar img {
+    width: 25px;
+}
