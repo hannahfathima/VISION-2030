@@ -31,3 +31,8 @@
 .floating-bar img {
     width: 25px;
 }
+@media(max-width:768px){
+    .floating-bar{
+        bottom: 19%;
+    }
+}

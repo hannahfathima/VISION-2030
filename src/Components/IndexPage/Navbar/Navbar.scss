@@ -2,6 +2,7 @@
 
 .navbar-main-wrapper {
   .navbar-sub-body {
+
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     height: 80px;
@@ -52,6 +53,7 @@
       display: none;
       flex-direction: column;
       cursor: pointer;
+
       span {
         width: 25px;
         height: 3px;
@@ -77,60 +79,130 @@
       color: #FFFFFF;
     }
 
-    .RxHamburgerMenu{
+    .RxHamburgerMenu {
       color: white;
       font-size: 25px;
-    
+
     }
-    .RxCross1{
+
+    .RxCross1 {
       color: white;
       font-size: 25px;
-      
+
     }
   }
 
+  .mobile-nav-bar {
+    display: none;
+  }
+
+
   @media (max-width: 768px) {
-    .navbar-sub-body{
-      height: 68px !important;
+    .navbar-sub-body {
+      display: none !important;
+      padding-top: 0 !important;
+
     }
-    .left-nav{
-      padding-left: 0px !important;
-      .flit-logo{
-        width: 128px;
-        height: 52px;
-      }
+
+    .mobile-nav-bar {
+      height: 4rem;
+      display: block;
+      position: fixed;
+      bottom: 10px;
+      // overflow: hidden;
+      width: 95%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 999999999999;
     }
-    .right-nav {
-      padding-right: 2rem;
-      .menu-icon {
-        display: flex;
-     
+
+    .bottom-navbarr {
+      display: flex;
+      align-items: center;
+      border-radius: 30px !important;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .nav-bar-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10rem;
+      background-color: rgb(51, 47, 47);
+      border-radius: 50px !important;
+      height: 4rem;
+      width: 100% !important;
+
+      .FaUser {
+        font-size: 26px;
+        color: #FFFFFF;
       }
 
-      .navbar-links {
+      .HiHome {
+        font-size: 33px;
+        color: white;
+      }
+
+
+      
+      .home-icon {
+        background-color: rgb(115, 113, 113);
+        width: 60px;
+        height: 60px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        top: 69px;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.626);
-        width: 100%;
-        height: calc(103vh - 80px);
-        backdrop-filter: blur(50px);
+        bottom: 50%;
+        border-radius: 100px;
+      }
+
+      .about-icon {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translateX(100%);  // Initially hide off-screen
-        transition: transform 0.3s ease;
-        z-index: 9999;
+        // background-color: red;
+        height: 4rem;
+
+        p {
+          padding-bottom: 0 !important;
+          margin-bottom: 0 !important;
+          font-family: jost;
+          font-weight: 200;
+          font-size: 13px;
+          color: white;
+          padding-top: 1px;
+        }
       }
 
-      .navbar-links.open {
-        transform: translateX(0);
+  
+
+      .contact-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background-color: red;
+        height: 4rem;
+
+        p {
+          padding-bottom: 0 !important;
+          margin-bottom: 0 !important;
+          font-family: jost;
+          font-weight: 200;
+          font-size: 13px;
+          color: white;
+          padding-top: 3px;
+        }
       }
 
-      .navbar-lists {
-        margin: 15px 0;
-      }
+      
     }
+    
+  
+
   }
 }
