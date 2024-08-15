@@ -100,11 +100,17 @@
     }    
     .hero-sociel-icon-container{
         padding:0rem 0px 1rem!important;
+
         .sociel-left{
             padding-left: 10px !important;
+            button{
+                font-size: 14px !important;
+            }
         }
         .sociel-right{
             padding-right: 10px !important;
+        gap: 13px !important;
+
         }
      
     }
@@ -114,10 +120,10 @@
         margin: auto !important;
     }
     .banner-titles{
-        top: 47% !important;
+        top: 38% !important;
         h1 {
-                font-size: 32px !important;
-                line-height: 53px;
+                font-size: 28px !important;
+                line-height: 40px !important;
                 padding-bottom: 0px !important;
             }
             h2{
@@ -133,7 +139,7 @@
         padding-bottom: 2rem !important;
     }    
     .hero-sociel-icon-container{
-        padding:5rem 0px 1rem!important;
+        padding:0rem 0px 1rem !important;
         .sociel-left{
             padding-left: 10px !important;
         }
